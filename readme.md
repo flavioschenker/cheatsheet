@@ -48,7 +48,8 @@ This is my personal cheat sheet, a curated collection of useful commands I've ga
 |**Action**|**Command**|
 |-|-|
 |**Update wget**|`sudo apt update`|
-|**Install git**|`sudo apt install git-all`|
+|**Install git**|`sudo apt install git`|
+|**Install ssh**|`sudo apt install openssh-client`|
 |**Generate ssh-key**|`ssh-keygen -t ed25519`|
 |**Read out key**|`cat ~/.ssh/id_rsa.pub`|
 |**Insert keys to hubs**|GitLab, GitHub|
