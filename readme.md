@@ -1,5 +1,27 @@
 # Cheat Sheet
 This is my personal cheat sheet, a curated collection of useful commands I've gathered over the years while working in data science and software engineering.
+
+## TMUX
+|**Action**|**Command**|
+|-|-|
+|**Create new session**|`tmux`|
+|**List sessions**|`tmux ls`|
+|**Detach session**|`<ctrl>+b then d`|
+|**Rejoin latest**|`tmux attach`|
+|**Rejoin session**|`tmux attach -t <name>`|
+|**Kill session inside**|`exit`|
+|**Kill session inside**|`<ctrl>+b then x`|
+|**Kill session outside**|`tmux kill-session <name>`|
+|**New Window in session**|`<ctrl>+b then c`|
+|**Switch next Window**|`<ctrl>+b then n`|
+|**Switch prev Window**|`<ctrl>+b then p`|
+|**Rename sessions**|`<ctrl>+b then $`|
+|**Rename window**|`<ctrl>+b then ,`|
+|**Split window into pans LR**|`<ctrl>+b then %`|
+|**Split window into pans TB**|`<ctrl>+b then "`|
+|**Navigate pans**|`<ctrl>+b arrow keys`|
+|**Resize pans**|`<ctrl>+b alt+arrow keys`|
+
 ## BASH
 |**Action**|**Command**|
 |-|-|
